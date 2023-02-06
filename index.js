@@ -1,8 +1,7 @@
 // Importa o módulo express para esse arquivo
 const express = require("express");
 const { url } = require("inspector");
-const nodemailer = require('nodemailer');
-const smtpTransport = require("nodemailer/lib/smtp-transport");
+
 
 require("dotenv").config();
 
@@ -22,8 +21,6 @@ app.get("/", (req, res) => {
 app.get("/video", (req, res) => {
     res.render("video");
 });
-
-app.post("/send", async (req,res) => {
 
 
 app.listen(port, () => console.log(`Servidor rodando em http://localhost:${port}`));
