@@ -21,7 +21,7 @@ body {
 
 h1, h2, h3, h4 {
   font-size: 38px;
-  color: rgb(228, 182, 14) !important;
+  color: rgb(222, 146, 1) !important;
   font-weight: 700;
   font-family: 'Arvo', serif;
 }
@@ -94,7 +94,7 @@ a:not([href]):not([tabindex]) {
   margin: 0 auto 30px;
   position: relative;
   width: 90%;
-  background-color: rgb(228, 182, 14);
+  background-color: rgb(222, 146, 1);
 }
 
 .padding-none {
@@ -119,7 +119,7 @@ a:not([href]):not([tabindex]) {
   padding: 10px 30px;
   cursor: pointer;
   font-weight: 400;
-  color: rgb(228, 182, 14) !important;
+  color: rgb(222, 146, 1) !important;
   border-radius: 30px;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -252,7 +252,7 @@ a.back-to-top i {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  color: rgb(228, 182, 14);
+  color: rgb(222, 146, 1);
   background: #890381;
   border-radius: 30px;
   text-align: center;
@@ -366,7 +366,7 @@ hr {
   line-height: 22px;
   margin-top: 30px;
   border-radius: 3px;
-  background-color: rgb(228, 182, 14);
+  background-color: rgb(222, 146, 1);
   -webkit-transition: all .3s ease-in-out;
   -mox-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -375,7 +375,7 @@ hr {
 }
 
 #features .box-item h4{
-  color: #890381 !important;
+  color: #000000 !important;
 }
 
 #cta li i{
@@ -785,7 +785,7 @@ hr {
 }
 
 #hero-area .contents .head-title {
-  color: rgb(228, 182, 14);
+  color: rgb(222, 146, 1);
   font-size: 42px;
   font-weight: 700;
   line-height: 60px;
@@ -793,7 +793,7 @@ hr {
 }
 
 .header-button a{
-  color:rgb(228, 182, 14) !important;
+  color:rgb(222, 146, 1) !important;
   background-color: #890381;
   animation: pulse 0.7s infinite alternate;
   animation-timing-function: ease;
@@ -802,7 +802,7 @@ hr {
 
 .header-button a:hover{
   color:#890381!important;
-  background-color: rgb(228, 182, 14) !important;
+  background-color: rgb(222, 146, 1) !important;
 }
 
 
@@ -948,7 +948,7 @@ to{
 }
 
 .table {
-  background-color: rgb(228, 182, 14) !important;
+  background-color: rgb(222, 146, 1) !important;
 }
 
 
@@ -999,7 +999,7 @@ to{
 
 #pricing .table .pricing-header .price-value {
   font-size: 24px;
-  color: rgb(137, 3, 129) !important;
+  color: rgb(0, 0, 0) !important;
   position: relative;
   text-align: center;
   font-weight: 700;
@@ -1026,7 +1026,7 @@ to{
 #pricing .table .description li {
   font-size: 14px;
   font-weight: 400;
-  color: rgb(137, 3, 129) !important;
+  color: rgb(255, 255, 255) !important;
   padding: 4px 0;
 }
 
@@ -1068,7 +1068,7 @@ to{
 
 .testimonial {
   position: relative;
-  background-color: rgb(228, 182, 14);
+  background-color: rgb(222, 146, 1);
 }
 
 .testimonial-item {
@@ -1432,7 +1432,7 @@ textarea {
 }
 
 #copyright p a:hover {
-  color: rgb(228, 182, 14);
+  color: rgb(222, 146, 1);
 }
 
 .social-icon a {
@@ -1502,28 +1502,50 @@ textarea {
 }
 
 #faq{
-  width: 80%!important;
-  margin-left: 10% !important;
-  color: rgb(228, 182, 14) !important;
+  width: 40%!important;
+  margin-left: 30% !important;
+  color: rgb(222, 146, 1) !important;
 }
 
 .accordion-item{
   background-color: #890381 !important;
 }
 .accordion-item button{
-  background-color: #890381 !important;
-  color:rgb(228, 182, 14)
+  background-color: rgb(222, 146, 1) !important;
+  color:rgb(255, 255, 255)
 }
 
 .accordion-button:not(.collapsed){
-  background-color: #890381 !important;
-  color:rgb(228, 182, 14) !important;
+  background-color: rgb(222, 146, 1) !important;
+  color:rgb(0, 0, 0) !important;
 }
 .accordion-collapse{
-  background-color:rgb(228, 182, 14);
-  color:  #890381 !important;
+  background-color:rgb(255, 255, 255);
+  color:  #383838 !important;
 }
 
 .accordion-button a{
-  color: rgb(228, 182, 14) !important;
+  color: rgb(222, 146, 1) !important;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.boxes img{
+  width: 117%;
+  margin-left: 4%;
+  box-shadow: 0 0 12px rgb(222, 146, 1, 0.5);
+}
+
+.depoimento-text{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#depoimento{
+  color: black !important;
 }

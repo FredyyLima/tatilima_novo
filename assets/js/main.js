@@ -59,13 +59,14 @@
     var owl = $("#testimonials");
       owl.owlCarousel({
         loop: true,
-        nav: false,
+        nav: true,
         dots: true,
         center: true,
         margin: 15,
         slideSpeed: 1000,
         stopOnHover: true,
-        autoPlay: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
         responsiveClass: true,
         responsiveRefreshRate: true,
         responsive : {
